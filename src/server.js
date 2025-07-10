@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 
 // Start scheduled jobs only in production
-if (process.env.NODE_ENV === "production") job.start();
+if (process.env.NODE_ENV === "production");
 
 // Middlewares
 app.use(rateLimiter);
